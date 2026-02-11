@@ -28,10 +28,6 @@ type Selector struct {
 	Options []*Option `json:"options"`
 }
 
-type Config struct {
-	Selector *Selector `json:"selector"`
-}
-
 type Value struct {
 	Text string `json:"text"`
 	Lang string `json:"lang"`
@@ -40,6 +36,27 @@ type Value struct {
 type Option struct {
 	Key   string   `json:"key"`
 	Value []*Value `json:"value"`
+}
+
+type DateConfig struct {
+	Type string `json:"type"` // day / hour
+}
+
+type ContactConfig struct {
+	Type string `json:"type"` // single / multi
+	Mode string `json:"mode"` // user / department
+}
+
+type TableConfig struct {
+	Children   []Control     `json:"children"`
+	StatFields []interface{} `json:"stat_field"`
+}
+
+type Config struct {
+	Selector *Selector      `json:"selector"`
+	Date     *DateConfig    `json:"date"`
+	Contact  *ContactConfig `json:"contact"`
+	Table    *TableConfig   `json:"table"`
 }
 
 type Control struct {

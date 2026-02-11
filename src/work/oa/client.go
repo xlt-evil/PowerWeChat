@@ -282,3 +282,15 @@ func (comp *Client) SetOneUserQuota(ctx context.Context, data *object.HashMap) (
 	return result, err
 
 }
+
+// 获取审批申请详情（推荐：直接传 sp_no 字符串，避免 int 溢出或前导 0 丢失）
+// https://developer.work.weixin.qq.com/document/path/91983
+func (comp *Client) GetApprovalDetailBySpNo(ctx context.Context, spNo string) (*response.ResponseApprovalDetail, error) {
+	result := &response.ResponseApprovalDetail{}
+
+	_, err := comp.BaseClient.HttpPostJson(ctx, "cgi-bin/oa/getapprovaldetail", &object.HashMap{
+		"sp_no": spNo,
+	}, nil, nil, result)
+
+	return result, err
+}
