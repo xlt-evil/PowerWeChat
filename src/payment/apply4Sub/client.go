@@ -6,9 +6,9 @@ import (
 	"encoding/base64"
 	"github.com/ArtisanCloud/PowerLibs/v3/object"
 	"github.com/ArtisanCloud/PowerLibs/v3/security/sign"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/payment/apply4Sub/request"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/payment/apply4Sub/response"
-	payment "github.com/ArtisanCloud/PowerWeChat/v3/src/payment/kernel"
+	"github.com/xlt-evil/PowerWeChat/v3/src/payment/apply4Sub/request"
+	"github.com/xlt-evil/PowerWeChat/v3/src/payment/apply4Sub/response"
+	payment "github.com/xlt-evil/PowerWeChat/v3/src/payment/kernel"
 	"net/http"
 )
 

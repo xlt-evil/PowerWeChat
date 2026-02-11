@@ -1,7 +1,7 @@
 package response
 
 import (
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/kernel/response"
+	"github.com/xlt-evil/PowerWeChat/v3/src/kernel/response"
 )
 
 type ResponseCustomerServiceMessageGetTempMedia struct {

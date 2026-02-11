@@ -1,19 +1,19 @@
 package externalContact
 
 import (
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/kernel"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/work/externalContact/contactWay"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/work/externalContact/customerAcquisition"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/work/externalContact/customerStrategy"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/work/externalContact/groupChat"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/work/externalContact/groupWelcomeTemplate"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/work/externalContact/messageTemplate"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/work/externalContact/moment"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/work/externalContact/momentStrategy"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/work/externalContact/school"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/work/externalContact/statistics"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/work/externalContact/tag"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/work/externalContact/transfer"
+	"github.com/xlt-evil/PowerWeChat/v3/src/kernel"
+	"github.com/xlt-evil/PowerWeChat/v3/src/work/externalContact/contactWay"
+	"github.com/xlt-evil/PowerWeChat/v3/src/work/externalContact/customerAcquisition"
+	"github.com/xlt-evil/PowerWeChat/v3/src/work/externalContact/customerStrategy"
+	"github.com/xlt-evil/PowerWeChat/v3/src/work/externalContact/groupChat"
+	"github.com/xlt-evil/PowerWeChat/v3/src/work/externalContact/groupWelcomeTemplate"
+	"github.com/xlt-evil/PowerWeChat/v3/src/work/externalContact/messageTemplate"
+	"github.com/xlt-evil/PowerWeChat/v3/src/work/externalContact/moment"
+	"github.com/xlt-evil/PowerWeChat/v3/src/work/externalContact/momentStrategy"
+	"github.com/xlt-evil/PowerWeChat/v3/src/work/externalContact/school"
+	"github.com/xlt-evil/PowerWeChat/v3/src/work/externalContact/statistics"
+	"github.com/xlt-evil/PowerWeChat/v3/src/work/externalContact/tag"
+	"github.com/xlt-evil/PowerWeChat/v3/src/work/externalContact/transfer"
 )
 
 func RegisterProvider(app kernel.ApplicationInterface) (

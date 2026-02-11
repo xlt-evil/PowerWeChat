@@ -5,8 +5,8 @@ package auth
 import (
 	"context"
 	"github.com/ArtisanCloud/PowerLibs/v3/object"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/kernel"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/openPlatform/auth"
+	"github.com/xlt-evil/PowerWeChat/v3/src/kernel"
+	"github.com/xlt-evil/PowerWeChat/v3/src/openPlatform/auth"
 	"net/http"
 )
 

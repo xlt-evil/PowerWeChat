@@ -1,9 +1,9 @@
 package handlers
 
 import (
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/kernel"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/kernel/contract"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/kernel/decorators"
+	"github.com/xlt-evil/PowerWeChat/v3/src/kernel"
+	"github.com/xlt-evil/PowerWeChat/v3/src/kernel/contract"
+	"github.com/xlt-evil/PowerWeChat/v3/src/kernel/decorators"
 	"net/http"
 )
 

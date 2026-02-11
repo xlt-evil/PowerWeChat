@@ -30,7 +30,7 @@ go get -u github.com/ArtisanCloud/PowerWeChat/v3
 
 ```go
 import (
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/miniProgram"
+	"github.com/xlt-evil/PowerWeChat/v3/src/miniProgram"
 	"os"
 )
 

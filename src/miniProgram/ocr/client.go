@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 	"github.com/ArtisanCloud/PowerLibs/v3/object"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/kernel"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/kernel/power"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/miniProgram/ocr/response"
+	"github.com/xlt-evil/PowerWeChat/v3/src/kernel"
+	"github.com/xlt-evil/PowerWeChat/v3/src/kernel/power"
+	"github.com/xlt-evil/PowerWeChat/v3/src/miniProgram/ocr/response"
 )
 
 type Client struct {

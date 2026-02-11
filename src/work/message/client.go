@@ -2,12 +2,12 @@ package message
 
 import (
 	"context"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/kernel"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/kernel/messages"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/kernel/power"
-	response2 "github.com/ArtisanCloud/PowerWeChat/v3/src/kernel/response"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/work/message/request"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/work/message/response"
+	"github.com/xlt-evil/PowerWeChat/v3/src/kernel"
+	"github.com/xlt-evil/PowerWeChat/v3/src/kernel/messages"
+	"github.com/xlt-evil/PowerWeChat/v3/src/kernel/power"
+	response2 "github.com/xlt-evil/PowerWeChat/v3/src/kernel/response"
+	"github.com/xlt-evil/PowerWeChat/v3/src/work/message/request"
+	"github.com/xlt-evil/PowerWeChat/v3/src/work/message/response"
 )
 
 type Client struct {

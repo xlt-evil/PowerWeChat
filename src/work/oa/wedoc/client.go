@@ -2,9 +2,9 @@ package wedoc
 
 import (
 	"context"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/kernel"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/work/oa/wedoc/request"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/work/oa/wedoc/response"
+	"github.com/xlt-evil/PowerWeChat/v3/src/kernel"
+	"github.com/xlt-evil/PowerWeChat/v3/src/work/oa/wedoc/request"
+	"github.com/xlt-evil/PowerWeChat/v3/src/work/oa/wedoc/response"
 )
 
 type Client struct {

@@ -1,9 +1,9 @@
 package server
 
 import (
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/kernel"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/kernel/messages"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/work/server/handlers"
+	"github.com/xlt-evil/PowerWeChat/v3/src/kernel"
+	"github.com/xlt-evil/PowerWeChat/v3/src/kernel/messages"
+	"github.com/xlt-evil/PowerWeChat/v3/src/work/server/handlers"
 	"log"
 )
 

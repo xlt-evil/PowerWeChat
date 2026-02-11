@@ -3,9 +3,9 @@ package tag
 import (
 	"context"
 	"github.com/ArtisanCloud/PowerLibs/v3/object"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/kernel"
-	response2 "github.com/ArtisanCloud/PowerWeChat/v3/src/kernel/response"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/officialAccount/user/tag/response"
+	"github.com/xlt-evil/PowerWeChat/v3/src/kernel"
+	response2 "github.com/xlt-evil/PowerWeChat/v3/src/kernel/response"
+	"github.com/xlt-evil/PowerWeChat/v3/src/officialAccount/user/tag/response"
 )
 
 type Client struct {

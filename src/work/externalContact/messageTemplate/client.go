@@ -7,10 +7,10 @@ import (
 	"reflect"
 
 	"github.com/ArtisanCloud/PowerLibs/v3/object"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/kernel"
-	response2 "github.com/ArtisanCloud/PowerWeChat/v3/src/kernel/response"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/work/externalContact/messageTemplate/request"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/work/externalContact/messageTemplate/response"
+	"github.com/xlt-evil/PowerWeChat/v3/src/kernel"
+	response2 "github.com/xlt-evil/PowerWeChat/v3/src/kernel/response"
+	"github.com/xlt-evil/PowerWeChat/v3/src/work/externalContact/messageTemplate/request"
+	"github.com/xlt-evil/PowerWeChat/v3/src/work/externalContact/messageTemplate/response"
 )
 
 type Client struct {

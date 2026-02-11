@@ -3,9 +3,9 @@ package statistics
 import (
 	"context"
 
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/kernel"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/work/externalContact/statistics/request"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/work/externalContact/statistics/response"
+	"github.com/xlt-evil/PowerWeChat/v3/src/kernel"
+	"github.com/xlt-evil/PowerWeChat/v3/src/work/externalContact/statistics/request"
+	"github.com/xlt-evil/PowerWeChat/v3/src/work/externalContact/statistics/response"
 )
 
 type Client struct {

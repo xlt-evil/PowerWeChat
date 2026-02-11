@@ -7,15 +7,15 @@ import (
 	"github.com/ArtisanCloud/PowerLibs/v3/object"
 	"net/http"
 
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/kernel"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/kernel/providers"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/openWork/base"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/openWork/corp"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/openWork/externalcontact"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/openWork/server"
-	suit "github.com/ArtisanCloud/PowerWeChat/v3/src/openWork/suitAuth"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/openWork/user"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/work"
+	"github.com/xlt-evil/PowerWeChat/v3/src/kernel"
+	"github.com/xlt-evil/PowerWeChat/v3/src/kernel/providers"
+	"github.com/xlt-evil/PowerWeChat/v3/src/openWork/base"
+	"github.com/xlt-evil/PowerWeChat/v3/src/openWork/corp"
+	"github.com/xlt-evil/PowerWeChat/v3/src/openWork/externalcontact"
+	"github.com/xlt-evil/PowerWeChat/v3/src/openWork/server"
+	suit "github.com/xlt-evil/PowerWeChat/v3/src/openWork/suitAuth"
+	"github.com/xlt-evil/PowerWeChat/v3/src/openWork/user"
+	"github.com/xlt-evil/PowerWeChat/v3/src/work"
 )
 
 type OpenWork struct {

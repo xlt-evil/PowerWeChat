@@ -1,7 +1,7 @@
 package base
 
 import (
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/kernel"
+	"github.com/xlt-evil/PowerWeChat/v3/src/kernel"
 )
 
 type Client struct {
