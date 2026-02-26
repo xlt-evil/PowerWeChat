@@ -98,7 +98,6 @@ func (guard *Guard) OverrideToCallbackType() {
 		case models.CALLBACK_MSG_TYPE_EVENT:
 			decryptMessage, err = guard.toCallbackEvent(callbackHeader, buf)
 			return decryptMessage, err
-
 		default:
 			return nil, errors.New("not found wechat msg type")
 		}
@@ -224,7 +223,10 @@ func (guard *Guard) toCallbackEvent(callbackHeader contract.EventInterface, buf 
 		err = xml.Unmarshal(buf, decryptMsg)
 		decryptMessage = decryptMsg
 		break
-
+	case models2.CALLBACK_EVENT_SYS_APPROVAL_CHANGE:
+		decryptMsg := &models2.EventSysApprovalChange{}
+		err = xml.Unmarshal(buf, decryptMsg)
+		decryptMessage = decryptMsg
 	default:
 		return nil, errors.New("not found wechat event")
 	}
