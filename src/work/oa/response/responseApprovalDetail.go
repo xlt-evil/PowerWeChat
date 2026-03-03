@@ -63,10 +63,10 @@ type ApplyData struct {
 
 // Content 表单内容项
 type Content struct {
-	Control string                    `json:"control"` // 控件类型（如Text）
-	ID      string                    `json:"id"`      // 控件ID
-	Title   []ApprovalDetailInfoTitle `json:"title"`   // 控件标题
-	Value   ApprovalDetailInfoValue   `json:"value"`   // 控件填写值
+	Control string `json:"control"` // 控件类型（如Text）
+	ID      string `json:"id"`      // 控件ID
+	//Title   []ApprovalDetailInfoTitle `json:"title"`   // 控件标题
+	//Value   ApprovalDetailInfoValue   `json:"value"`   // 控件填写值
 }
 
 // ApprovalDetailInfoTitle Title 控件标题
@@ -77,7 +77,7 @@ type ApprovalDetailInfoTitle struct {
 
 // ApprovalDetailInfoValue Value 控件填写值
 type ApprovalDetailInfoValue struct {
-	Text        []string `json:"text"`        // 文本内容
+	Text        string   `json:"text"`        // 文本内容
 	Tips        []string `json:"tips"`        // 提示信息
 	Members     []string `json:"members"`     // 成员列表
 	Departments []string `json:"departments"` // 部门列表
